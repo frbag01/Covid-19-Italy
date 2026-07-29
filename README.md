@@ -185,4 +185,4 @@ Questa sezione calcola il tasso di variazione percentuale dei nuovi casi conferm
 *Formattazione Condizionale (Scala di Colori / Evidenziazione)*.
 - **Descrizione:** Una tabella riassuntiva che individua per ciascuna regione il valore massimo mai raggiunto di nuovi casi giornalieri e la data esatta dell'evento.
 
-📥 **[Clicca qui per scaricare la Dashboard Interattiva (Covid project.xlsx)](Covid project.xlsx)**
+📥 **[Clicca qui per scaricare la Dashboard Interattiva (Covid project.xlsx)](Covid_project.xlsx)**
