@@ -140,7 +140,7 @@ Crea un grafico a linee dei nuovi casi giornalieri a livello nazionale
 - **La Fase Estiva di Calo:** Durante i mesi estivi (giugno - agosto 2020) si osserva una netta ed evidente flessione della curva con un minimo toccato a metà luglio (114 casi il 14/07/2020). Questo appiattimento evidenzia la stagionalità estiva e il temporaneo contenimento del virus.
 - **La Seconda Ondata Autunnale (Forte Spinta di Crescita):** A partire da ottobre 2020 si registra una ripartenza esponenziale dei contagi che sfocia nel picco assoluto del **13 novembre 2020** con **40.902 nuovi casi in 24 ore**. La seconda ondata ha mostrato volumi giornalieri oltre **6 volte superiori** rispetto al picco primaverile (fenomeno legato sia ad una maggiore diffusione virale, sia all'enorme incremento nella capacità di tracciamento e nel numero di tamponi effettuati).
 
-![Grafico per osservare l'andamento del fenomeno]([https://github.com/frbag01/ab-test/blob/main/hist.png?raw=true](https://github.com/frbag01/Covid-19-Italy/blob/main/grafico.png?raw=true))
+![Grafico per osservare l'andamento del fenomeno](https://github.com/frbag01/Covid-19-Italy/blob/main/grafico.png?raw=true))
 
 ### 4.Confronto tra Regioni
 Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmica. Quale regione ha mostrato la salita più ripida?
