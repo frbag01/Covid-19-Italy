@@ -127,3 +127,19 @@ ORDER BY covid19_italy_region.data;
 - **Concentrazione Temporale nel Mese di Novembre 2020:** La quasi totalità delle regioni italiane ha raggiunto il valore massimo di nuovi contagi giornalieri durante la seconda ondata, nello specifico **tra la prima e la terza settimana di novembre 2020**.
 - **Coerenza con i Volumi Complessivi (Domanda 1):** I valori di picco rispecchiano fedelmente la proporzione e le grandezze viste nella classifica dei casi totali: **Lombardia (11.489)**, **Piemonte (5.349)** e **Campania (4.601)** si confermano le tre regioni con la pressione giornaliera più alta dell'intero territorio nazionale.
 - **Inversione Anticipata del Trend in Lombardia:** Nonostante la Lombardia registri di gran lunga la cifra più alta in assoluto, il suo picco si colloca molto presto nella stagione autunnale (**7 novembre 2020**). Questo dato indica che, pur in presenza di volumi elevatissimi, la regione è stata tra le prime a mostrare gli effetti del rafforzamento delle misure di contenimento, invertendo la curva dei contagi prima di altre realtà.
+
+
+# PYTHON 
+
+Puoi vedere il codice principale qui: [1] [Python Script](cov19.py)
+
+### 3. Andamento Nazionale
+Crea un grafico a linee dei nuovi casi giornalieri a livello nazionale
+
+- **La Prima Ondata (Primavera 2020):** L'inizio dell'emergenza epidemiologica a marzo mostra la prima importante impennata della curva, raggiungendo il suo massimo il **21 marzo 2020** con **6.557 nuovi casi giornalieri**. 
+- **La Fase Estiva di Calo:** Durante i mesi estivi (giugno - agosto 2020) si osserva una netta ed evidente flessione della curva con un minimo toccato a metà luglio (114 casi il 14/07/2020). Questo appiattimento evidenzia la stagionalità estiva e il temporaneo contenimento del virus.
+- **La Seconda Ondata Autunnale (Forte Spinta di Crescita):** A partire da ottobre 2020 si registra una ripartenza esponenziale dei contagi che sfocia nel picco assoluto del **13 novembre 2020** con **40.902 nuovi casi in 24 ore**. La seconda ondata ha mostrato volumi giornalieri oltre **6 volte superiori** rispetto al picco primaverile (fenomeno legato sia ad una maggiore diffusione virale, sia all'enorme incremento nella capacità di tracciamento e nel numero di tamponi effettuati).
+
+![Grafico per osservare l'andamento del fenomeno](https://github.com/frbag01/ab-test/blob/main/hist.png?raw=true)
+
+### 4.Confronto tra Regioni
