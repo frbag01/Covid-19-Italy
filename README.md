@@ -135,15 +135,18 @@ Puoi vedere il codice principale qui: [1] [Python Script](cov19.py)
 
 ### 3. Andamento Nazionale
 Crea un grafico a linee dei nuovi casi giornalieri a livello nazionale
+![Grafico per osservare l'andamento del fenomeno](https://github.com/frbag01/Covid-19-Italy/blob/main/grafico.png?raw=true)
 
 - **La Prima Ondata (Primavera 2020):** L'inizio dell'emergenza epidemiologica a marzo mostra la prima importante impennata della curva, raggiungendo il suo massimo il **21 marzo 2020** con **6.557 nuovi casi giornalieri**. 
 - **La Fase Estiva di Calo:** Durante i mesi estivi (giugno - agosto 2020) si osserva una netta ed evidente flessione della curva con un minimo toccato a metà luglio (114 casi il 14/07/2020). Questo appiattimento evidenzia la stagionalità estiva e il temporaneo contenimento del virus.
 - **La Seconda Ondata Autunnale (Forte Spinta di Crescita):** A partire da ottobre 2020 si registra una ripartenza esponenziale dei contagi che sfocia nel picco assoluto del **13 novembre 2020** con **40.902 nuovi casi in 24 ore**. La seconda ondata ha mostrato volumi giornalieri oltre **6 volte superiori** rispetto al picco primaverile (fenomeno legato sia ad una maggiore diffusione virale, sia all'enorme incremento nella capacità di tracciamento e nel numero di tamponi effettuati).
 
-![Grafico per osservare l'andamento del fenomeno](https://github.com/frbag01/Covid-19-Italy/blob/main/grafico.png?raw=true))
+
 
 ### 4.Confronto tra Regioni
 Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmica. Quale regione ha mostrato la salita più ripida?
+
+![andamento logaritmico](https://github.com/frbag01/Covid-19-Italy/blob/main/lomb.png?raw=true)
 
 - **Dinamica di Crescita della Lombardia:** 
   - **Fase Primaverile:** La salita di marzo 2020 mostra una pendenza rettilinea e quasi verticale, caratteristica tipica della **crescita esponenziale incontrollata** delle fasi iniziali (passando da poche decine a oltre 3.000 casi al giorno).
@@ -151,12 +154,13 @@ Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmi
 - **Omogeneità del Pattern tra le Top 5 Regioni:** La curva logaritmica della Lombardia ricalca perfettamente l'andamento osservato nelle altre principali regioni per numero di casi (Piemonte, Campania, Veneto ed Emilia-Romagna) e a livello nazionale.
 - **Conclusione:** L'analisi logaritmica dimostra che, sebbene i volumi assoluti differiscano tra i territori, **la velocità di propagazione del virus durante le fasi di recrudescenza ha seguito dinamiche strutturali del tutto analoghe** su tutto il territorio nazionale.
 
-![andamento logaritmico](https://github.com/frbag01/Covid-19-Italy/blob/main/lomb.png?raw=true)
+
 
 ### 5.Heatmap Temporale:
 
 Crea una barplot che mostri i giorni della settimana sull'asse X e i mesi, sull'asse Y il numero di nuovi casi. Esiste un "effetto lunedì" nel reporting dei dati?
 
+![analisi lunedì](https://github.com/frbag01/Covid-19-Italy/blob/main/luned%C3%AC.png?raw=true)
 
 - **Evidenza del Ciclismo Settimanale:** Il grafico evidenzia in modo sistematico (specialmente nei mesi di picco come ottobre e novembre 2020) che il lunedì (`Monday`) registra **costantemente il minor numero di nuovi casi confermati** rispetto al resto della settimana.
 - **Fattori Amministrativi e di Tracciamento (Driver Principale):**
@@ -165,3 +169,4 @@ Crea una barplot che mostri i giorni della settimana sull'asse X e i mesi, sull'
 - **Fattori Comportamentali e Sociali:**
   - **Dinamica dei Contatti Familiare vs Lavorativo:** Il rientro da periodi di riposo nel weekend — vissuti spesso in contesti familiari o con cerchie ristrette — riduce temporaneamente le occasioni di tracciamento formale, mentre la ripresa delle attività lavorative e scolastiche del lunedì incentiva i controlli.
 - **Conclusione per la Data Analysis:** L' "Effetto Lunedì" non rappresenta una reale diminuzione della circolazione del virus all'inizio della settimana, bensì un **artefatto nei flussi di raccolta dati**. 
+
