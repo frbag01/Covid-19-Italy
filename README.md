@@ -170,3 +170,19 @@ Crea una barplot che mostri i giorni della settimana sull'asse X e i mesi, sull'
   - **Dinamica dei Contatti Familiare vs Lavorativo:** Il rientro da periodi di riposo nel weekend — vissuti spesso in contesti familiari o con cerchie ristrette — riduce temporaneamente le occasioni di tracciamento formale, mentre la ripresa delle attività lavorative e scolastiche del lunedì incentiva i controlli.
 - **Conclusione per la Data Analysis:** L' "Effetto Lunedì" non rappresenta una reale diminuzione della circolazione del virus all'inizio della settimana, bensì un **artefatto nei flussi di raccolta dati**. 
 
+### 📊 Dashboard Excel Interattiva 
+
+Per consentire un'esplorazione flessibile e sintetica dei dati epidemiologici sul territorio italiano, è stata realizzata una **Dashboard dinamica articulata in 3 sezioni chiave**, alimentata da Tabelle Pivot e supportata da formattazione condizionale e filtri temporali.
+
+---
+
+#### 1. Totale Casi per Regione e Mese 
+Una matrice dinamica che incrocia le regioni italiane sui dati mensili (da febbraio a dicembre 2020), mostrando la somma cumulativa dei nuovi positivi e l'evoluzione temporale della diffusione del virus.
+#### 2. Variazione % Settimanale dei Nuovi Casi (Week-over-Week)
+- **Filtro Interattivo:** *Numero Settimana dell'Anno (`Week_Number`)*.
+Questa sezione calcola il tasso di variazione percentuale dei nuovi casi confermati rispetto ai 7 giorni precedenti ($\Delta\% = \frac{\text{Casi}_{W} - \text{Casi}_{W-1}}{\text{Casi}_{W-1}}$) per la settimana selezionata dall'utente.
+#### 3. Massimo Temporale per Regione (Picco Epidemiologico)
+*Formattazione Condizionale (Scala di Colori / Evidenziazione)*.
+- **Descrizione:** Una tabella riassuntiva che individua per ciascuna regione il valore massimo mai raggiunto di nuovi casi giornalieri e la data esatta dell'evento.
+
+📥 **[Clicca qui per scaricare la Dashboard Interattiva (Covid project.xlsx)](Covid project.xlsx)**
