@@ -151,3 +151,17 @@ Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmi
 - **Omogeneità del Pattern tra le Top 5 Regioni:** La curva logaritmica della Lombardia ricalca perfettamente l'andamento osservato nelle altre principali regioni per numero di casi (Piemonte, Campania, Veneto ed Emilia-Romagna) e a livello nazionale.
 - **Conclusione:** L'analisi logaritmica dimostra che, sebbene i volumi assoluti differiscano tra i territori, **la velocità di propagazione del virus durante le fasi di recrudescenza ha seguito dinamiche strutturali del tutto analoghe** su tutto il territorio nazionale.
 
+![andamento logaritmico](https://github.com/frbag01/Covid-19-Italy/blob/main/lomb.png?raw=true)
+
+### 5.Heatmap Temporale:
+
+Crea una barplot che mostri i giorni della settimana sull'asse X e i mesi, sull'asse Y il numero di nuovi casi. Esiste un "effetto lunedì" nel reporting dei dati?
+
+
+- **Evidenza del Ciclismo Settimanale:** Il grafico evidenzia in modo sistematico (specialmente nei mesi di picco come ottobre e novembre 2020) che il lunedì (`Monday`) registra **costantemente il minor numero di nuovi casi confermati** rispetto al resto della settimana.
+- **Fattori Amministrativi e di Tracciamento (Driver Principale):**
+  - **Minor Numero di Tamponi Processati la Domenica:** Nel fine settimana laboratori di analisi, strutture sanitarie e medici di medicina generale operano a regime ridotto. I tamponi effettuati o refertati la domenica (comunicati nel report del lunedì) sono numericamente inferiori.
+  - **Ritardo di Notifica (Reporting Delay):** I dati comunicati dalla Protezione Civile il lunedì riflettono l'attività amministrativa delle 24 ore precedenti (domenica). Il carico di lavoro accumulato nel weekend viene poi smaltito ed elaborato tra martedì e venerdì, generando il progressivo crescendo delle notifiche a metà settimana.
+- **Fattori Comportamentali e Sociali:**
+  - **Dinamica dei Contatti Familiare vs Lavorativo:** Il rientro da periodi di riposo nel weekend — vissuti spesso in contesti familiari o con cerchie ristrette — riduce temporaneamente le occasioni di tracciamento formale, mentre la ripresa delle attività lavorative e scolastiche del lunedì incentiva i controlli.
+- **Conclusione per la Data Analysis:** L' "Effetto Lunedì" non rappresenta una reale diminuzione della circolazione del virus all'inizio della settimana, bensì un **artefatto nei flussi di raccolta dati**. 
