@@ -140,6 +140,14 @@ Crea un grafico a linee dei nuovi casi giornalieri a livello nazionale
 - **La Fase Estiva di Calo:** Durante i mesi estivi (giugno - agosto 2020) si osserva una netta ed evidente flessione della curva con un minimo toccato a metà luglio (114 casi il 14/07/2020). Questo appiattimento evidenzia la stagionalità estiva e il temporaneo contenimento del virus.
 - **La Seconda Ondata Autunnale (Forte Spinta di Crescita):** A partire da ottobre 2020 si registra una ripartenza esponenziale dei contagi che sfocia nel picco assoluto del **13 novembre 2020** con **40.902 nuovi casi in 24 ore**. La seconda ondata ha mostrato volumi giornalieri oltre **6 volte superiori** rispetto al picco primaverile (fenomeno legato sia ad una maggiore diffusione virale, sia all'enorme incremento nella capacità di tracciamento e nel numero di tamponi effettuati).
 
-![Grafico per osservare l'andamento del fenomeno](https://github.com/frbag01/ab-test/blob/main/hist.png?raw=true)
+![Grafico per osservare l'andamento del fenomeno]([https://github.com/frbag01/ab-test/blob/main/hist.png?raw=true](https://github.com/frbag01/Covid-19-Italy/blob/main/grafico.png?raw=true))
 
 ### 4.Confronto tra Regioni
+Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmica. Quale regione ha mostrato la salita più ripida?
+
+- **Dinamica di Crescita della Lombardia:** 
+  - **Fase Primaverile:** La salita di marzo 2020 mostra una pendenza rettilinea e quasi verticale, caratteristica tipica della **crescita esponenziale incontrollata** delle fasi iniziali (passando da poche decine a oltre 3.000 casi al giorno).
+  - **Ripresa Autunnale (Ottobre 2020):** La ripartenza registrata in autunno mostra la **salita più ripida e costante dell'intero grafico**, dove la Lombardia passa da **324 nuovi casi** (1° ottobre) a ben **8.919 nuovi casi** (1° novembre).
+- **Omogeneità del Pattern tra le Top 5 Regioni:** La curva logaritmica della Lombardia ricalca perfettamente l'andamento osservato nelle altre principali regioni per numero di casi (Piemonte, Campania, Veneto ed Emilia-Romagna) e a livello nazionale.
+- **Conclusione:** L'analisi logaritmica dimostra che, sebbene i volumi assoluti differiscano tra i territori, **la velocità di propagazione del virus durante le fasi di recrudescenza ha seguito dinamiche strutturali del tutto analoghe** su tutto il territorio nazionale.
+
