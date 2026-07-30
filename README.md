@@ -180,9 +180,12 @@ Per consentire un'esplorazione flessibile e sintetica dei dati epidemiologici su
 Una matrice dinamica che incrocia le regioni italiane sui dati mensili (da febbraio a dicembre 2020), mostrando la somma cumulativa dei nuovi positivi e l'evoluzione temporale della diffusione del virus.
 #### 2. Variazione % Settimanale dei Nuovi Casi (Week-over-Week)
 - **Filtro Interattivo:** *Numero Settimana dell'Anno (`Week_Number`)*.
-Questa sezione calcola il tasso di variazione percentuale dei nuovi casi confermati rispetto ai 7 giorni precedenti ($\Delta\% = \frac{\text{Casi}_{W} - \text{Casi}_{W-1}}{\text{Casi}_{W-1}}$) per la settimana selezionata dall'utente.
+Questa sezione calcola il tasso di variazione percentuale dei nuovi casi confermati rispetto ai 7 giorni precedenti per la settimana selezionata dall'utente.
 #### 3. Massimo Temporale per Regione (Picco Epidemiologico)
 *Formattazione Condizionale (Scala di Colori / Evidenziazione)*.
 - **Descrizione:** Una tabella riassuntiva che individua per ciascuna regione il valore massimo mai raggiunto di nuovi casi giornalieri e la data esatta dell'evento.
 
 📥 **[Clicca qui per scaricare la Dashboard Interattiva (Covid_project.xlsx)](Covid_project.xlsx)**
+
+# Conclusione
+La propagazione del virus ha seguito un andamento molto simile in tutte le zone considerate, seguendo due grandi ondate di diffusione, manifestandosi in modo più pronunciato nelle città più abitate e nelle regioni più popolose.
