@@ -1,19 +1,6 @@
-1. L'Andamento Nazionale (Rolling Average):
+#1. L'Andamento Nazionale (Rolling Average):
 
-Task: Crea un grafico a linee dei nuovi casi giornalieri a livello nazionale 
-
-import ast
-import pandas as pd
-from datasets import load_dataset
-import matplotlib.pyplot as plt
-import seaborn as sns # Import seaborn for enhanced plotting
-
-# To load a local file, you first need to upload it to your Colab environment.
-# You can do this by clicking the folder icon on the left panel, then the upload icon.
-# Once uploaded, the file will be in the /content/ directory.
-
-# If the file 'Exam_Score_Prediction.csv' has been uploaded to the Colab session,
-# you can load it using its relative path.
+#Task: Crea un grafico a linee dei nuovi casi giornalieri a livello nazionale 
 
 
 df = pd.read_csv('covid19_italy_region.csv', sep=';')
@@ -29,22 +16,9 @@ plt.xlabel('Data')
 plt.show()
 
 
-2. Confronto tra Regioni (Growth Rate):
+#2. Confronto tra Regioni (Growth Rate):
 
-Task: Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmica. Quale regione ha mostrato la salita più ripida?
-
-import ast
-import pandas as pd
-from datasets import load_dataset
-import matplotlib.pyplot as plt
-import seaborn as sns # Import seaborn for enhanced plotting
-
-# To load a local file, you first need to upload it to your Colab environment.
-# You can do this by clicking the folder icon on the left panel, then the upload icon.
-# Once uploaded, the file will be in the /content/ directory.
-
-# If the file 'Exam_Score_Prediction.csv' has been uploaded to the Colab session,
-# you can load it using its relative path.
+#Task: Scegli le 5 regioni più colpite e confronta la loro curva di crescita logaritmica. Quale regione ha mostrato la salita più ripida?
 
 
 df = pd.read_csv('covid19_italy_region.csv', sep=';')
@@ -68,22 +42,10 @@ for i in top5_region_names:
   plt.show()
 
 
-3.Heatmap Temporale:
+#3.Heatmap Temporale:
 
-Task: Crea una barplot che mostri i giorni della settimana sull'asse X e i mesi, sull'asse Y il numero di nuovi casi. Esiste un "effetto lunedì" nel reporting dei dati?
+#Task: Crea una barplot che mostri i giorni della settimana sull'asse X e i mesi, sull'asse Y il numero di nuovi casi. Esiste un "effetto lunedì" nel reporting dei dati?
 
-import ast
-import pandas as pd
-from datasets import load_dataset
-import matplotlib.pyplot as plt
-import seaborn as sns # Import seaborn for enhanced plotting
-
-# To load a local file, you first need to upload it to your Colab environment.
-# You can do this by clicking the folder icon on the left panel, then the upload icon.
-# Once uploaded, the file will be in the /content/ directory.
-
-# If the file 'Exam_Score_Prediction.csv' has been uploaded to the Colab session,
-# you can load it using its relative path.
 
 
 df = pd.read_csv('covid19_italy_region.csv', sep=';')
